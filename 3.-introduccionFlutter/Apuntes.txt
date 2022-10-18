@@ -1,0 +1,44 @@
+Conceptos:
+
+Aprender flutter requiere mucha practica como todo en la vida
+
+¿widget?
+es una clase que puede tener arguementos posiciales y argumentos con nombre
+--todo en flutter son widgets
+
+ejemplo:
+//appbar es una clase
+Appbar(
+    tittle:Text('hola mundo')
+)
+//this.tittle argumento por nombre
+AppBar({this.tittle})
+
+widgets:
+StatelessWidget: no le importa si una propiedad cambia
+sin estado
+-lo definimos como final o const
+-botones,botones con iconos.
+StatefulWidget:
+con estado
+-puede cambiar a lo largo de la ejecucion
+
+
+Class ConctactoScreen{
+    String nombre='PEPE';
+}
+
+
+Arbol de widgets:
+
+    Tapbar<-Scaffold-> AppBar
+                |
+            container
+                |
+                Text
+                |
+                row
+
+una aplicacion en flutter es una gran cantidad de widgets entre ellos
+
+Estructura de un proyecto 
