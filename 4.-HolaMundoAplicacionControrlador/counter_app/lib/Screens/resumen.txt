@@ -1,0 +1,18 @@
+RESUMEN LA SECCION:
+
+-el main utilizamos para renderizar 
+-statelesswidget- es nuestro primer widget ya que definimos si va a cambiar o no nuestra aplicacion
+
+-CONST ,utilizamos cuando no vamos a cambiar en un futuro sus valores y nos ahorra memoria
+
+-hay ciertos widgets que sus constructores son constantes
+
+-flutter recomiuenda lo statelesswidgets 
+
+-el build debe de regresar un widget
+
+-Scaffold es todo el lienzo de nuestra aplicacion ,osea de donde podemos trabajar y colocar todos los elementos y casi 99% tendremos un body
+
+statelesswidget: no puede tener un estado 
+
+setsetate: es una funcion que nos sirve para poder actualizar nuestra aplicacion a los nuevos cambios que hemos hecho
